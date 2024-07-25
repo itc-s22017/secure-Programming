@@ -1,5 +1,5 @@
 <?php
-  $url = filter_input(INPUT_GET,'utl');
+  $url = filter_input(INPUT_GET,'url');
   if (empty($url)) {
      $url = 'http://example.jp/47/47-003.php';
   }
